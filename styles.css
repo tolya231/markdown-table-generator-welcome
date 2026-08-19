@@ -34,5 +34,5 @@ body {
   border-radius: 14px; border: 1px solid #e6e9ef;
 }
 .step p, .note p { margin: 0; font-size: 17px; line-height: 1.65; color: #3a4049; }
-.note__hint { margin-top: 18px; color: #5d6470; font-size: 16px; }
+.note p.note__hint { margin-top: 18px; color: #5d6470; font-size: 16px; }
 .footer { padding: 0 20px 48px; text-align: center; color: #5d6470; font-size: 15px; }
