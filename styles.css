@@ -1,0 +1,38 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: #f7f8fa;
+  color: #16181d;
+}
+.hero {
+  background: linear-gradient(135deg, #10b981 0%, #0d9488 100%);
+  color: #fff;
+  padding: 48px 20px 56px;
+  text-align: center;
+}
+.hero__icon { width: 84px; height: 84px; display: block; margin: 0 auto 18px; }
+.hero h1 { margin: 0; font-size: 38px; font-weight: 800; letter-spacing: -1px; }
+.hero__sub { margin: 12px auto 0; max-width: 620px; font-size: 19px; opacity: .95; }
+.container { max-width: 980px; margin: -28px auto 0; padding: 0 20px 40px; }
+.step, .note {
+  background: #fff;
+  border-radius: 18px;
+  padding: 34px 38px 40px;
+  margin-bottom: 28px;
+  box-shadow: 0 12px 34px rgba(20, 24, 40, .08);
+}
+.step h2, .note h2 { margin: 0 0 20px; font-size: 26px; display: flex; align-items: center; gap: 12px; }
+.step__num {
+  width: 34px; height: 34px; border-radius: 50%;
+  background: #0d9488; color: #fff;
+  font-size: 18px; font-weight: 700;
+  display: inline-flex; align-items: center; justify-content: center;
+}
+.step img {
+  width: 100%; display: block; margin: 0 0 22px;
+  border-radius: 14px; border: 1px solid #e6e9ef;
+}
+.step p, .note p { margin: 0; font-size: 17px; line-height: 1.65; color: #3a4049; }
+.note__hint { margin-top: 18px; color: #5d6470; font-size: 16px; }
+.footer { padding: 0 20px 48px; text-align: center; color: #5d6470; font-size: 15px; }
