@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy – Markdown Table Generator</title>
+<link rel="icon" href="images/icon.png">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         background: #f7f8fa; color: #16181d; }
+  .hero { background: linear-gradient(135deg, #10b981 0%, #0d9488 100%); color: #fff; padding: 40px 20px 44px; text-align: center; }
+  .hero img { width: 64px; height: 64px; display: block; margin: 0 auto 14px; }
+  .hero h1 { margin: 0; font-size: 32px; font-weight: 800; letter-spacing: -.5px; }
+  main { max-width: 780px; margin: -24px auto 0; padding: 0 20px 56px; }
+  article { background: #fff; border-radius: 18px; padding: 34px 38px 40px; box-shadow: 0 12px 34px rgba(20, 24, 40, .08); }
+  h2 { margin: 30px 0 10px; font-size: 21px; }
+  h2:first-of-type { margin-top: 6px; }
+  p, li { font-size: 16px; line-height: 1.65; color: #3a4049; }
+  p { margin: 0 0 12px; }
+  ul { margin: 0 0 14px; padding-left: 22px; }
+  code { background: #eef1f4; border-radius: 4px; padding: 1px 5px; font-size: 14px; }
+  a { color: #0d9488; }
+  footer { text-align: center; color: #5d6470; font-size: 14px; padding: 0 20px 40px; }
+</style>
+</head>
+<body>
+<header class="hero">
+  <img src="images/icon-white.svg" alt="">
+  <h1>Privacy Policy</h1>
+</header>
+<main><article>
+<p><strong>Last updated: 19 August 2026</strong></p>
+<p>Markdown Table Generator (&quot;the extension&quot;) is a Chrome extension that turns rows and columns into a Markdown table you can paste anywhere.</p>
+<h2>What we collect</h2>
+<p>Nothing. The extension has no backend, no account system, no analytics and no telemetry. We — the developer — never see the data you type, paste or grab. There is no server to receive it: the extension makes no network requests at all, which you can verify in Chrome&#x27;s DevTools Network tab and in the source, where a test fails the build if a network call appears.</p>
+<h2>What the extension stores</h2>
+<p>One draft of the table you are working on, in the <code>localStorage</code> of the extension&#x27;s own popup, inside your browser profile on your own computer:</p>
+<ul>
+  <li>the cell values you typed, pasted or grabbed;</li>
+  <li>the alignment of each column and the state of the header row switch.</li>
+</ul>
+<p>The draft stays until you press Clear, and removing the extension removes it along with everything else the extension keeps. Nothing is uploaded anywhere.</p>
+<h2>Permissions</h2>
+<ul>
+  <li><code>activeTab</code> — lets the extension read the tables of the page you are on when you press Grab, and only then. Without a press it has no access to any page.</li>
+  <li><code>scripting</code> — runs the one-off script that reads those tables. It is injected on the Grab press and does nothing else.</li>
+</ul>
+<p>The extension asks for no host permissions and installs no content scripts, so it cannot watch the pages you visit.</p>
+<h2>What the extension reads on a page</h2>
+<p>When you press Grab, the extension reads the text of the table elements of the page in the active tab: the cell values, and how many rows and columns each spans. It does not read anything else on the page, does not change the page and does not keep a copy of it. If the page has several tables, the list you pick from is built from their captions or first cells, in the popup, on your machine.</p>
+<h2>The clipboard</h2>
+<p>Pressing Copy writes the Markdown block to your clipboard. Pasting into the grid reads what you pasted, in the popup only. The extension never reads your clipboard on its own — the browser hands it the pasted text as part of your paste.</p>
+<h2>Third parties</h2>
+<p>The extension integrates with no external service, bundles no third-party library and loads nothing from the network. No data is sold, shared or disclosed, because none is collected.</p>
+<h2>Children</h2>
+<p>The extension is a writing tool for documentation, notes and issues. It is not directed at children and collects nothing from anyone.</p>
+<h2>Changes</h2>
+<p>If a future version starts handling data differently — for example an optional sync of saved table templates — this policy will be updated before that version ships, and the change will be described in the extension&#x27;s store listing.</p>
+<h2>Contact</h2>
+<p>Questions about this policy: <a href="mailto:shelto1221@gmail.com">shelto1221@gmail.com</a></p>
+</article></main>
+<footer><p><a href="./">Back to the welcome page</a></p></footer>
+</body>
+</html>
